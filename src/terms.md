@@ -8,6 +8,7 @@
 | Antiarmor Specialist | 反裝甲兵 |
 | Assistant Machine Gunner | 助理機槍兵 |
 | Base of Fire | 火力基點 |
+| Brigade Combat Team | 旅級戰鬥隊 |
 | Casualty Collection Point | 傷亡收集點 |
 | Combined Arms | 聯合武裝 |
 | Company Medic | 連醫護兵 |

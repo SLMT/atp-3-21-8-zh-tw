@@ -5,13 +5,18 @@
 
 --------------------------------------------------
 
-- [🚧 組織](work-in-progress.md)
-- [🚧 進攻](work-in-progress.md)
-- [🚧 防禦](work-in-progress.md)
-- [🚧 穩定](work-in-progress.md)
-- [🚧 移動](work-in-progress.md)
-- [🚧 巡邏隊與巡邏](work-in-progress.md)
-- [🚧 維持](work-in-progress.md)
+1. [組織](chapter-1/README.md)
+    1. [🚧 行動概要](work-in-progress.md)
+    2. [🚧 步槍排與班的腳色](work-in-progress.md)
+    3. [🚧 機械化步兵排與班的腳色](work-in-progress.md)
+    4. [🚧 史崔克步兵排與班的腳色](work-in-progress.md)
+    5. [🚧 連隊組織](work-in-progress.md)
+2. [🚧 進攻](work-in-progress.md)
+3. [🚧 防禦](work-in-progress.md)
+4. [🚧 穩定](work-in-progress.md)
+5. [🚧 移動](work-in-progress.md)
+6. [🚧 巡邏隊與巡邏](work-in-progress.md)
+7. [🚧 維持](work-in-progress.md)
 
 --------------------------------------------------
 

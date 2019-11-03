@@ -7,7 +7,7 @@
 本翻譯文件是使用 Markdown 撰寫，使用 [mdBook](https://github.com/rust-lang-nursery/mdBook) 編譯而成，並使用 [Travis CI](https://travis-ci.org/) 自動發佈於本站。
 
 - 本書原始碼：[https://github.com/SLMT/atp-3-21-8-zh-tw](https://github.com/SLMT/atp-3-21-8-zh-tw)
-- 本書網址：[http://www.slmt.tw/atp-3-21-8-zh-tw/](http://www.slmt.tw/atp-3-21-8-zh-tw/)
+- 本書網址：[https://www.slmt.tw/atp-3-21-8-zh-tw/](http://www.slmt.tw/atp-3-21-8-zh-tw/)
 
 有任何問題歡迎到 Github 上的 [issues](https://github.com/SLMT/atp-3-21-8-zh-tw/issues) 提問！
 

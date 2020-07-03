@@ -1,6 +1,6 @@
 [book]
+title = "美國陸軍技術出版物 3-21.8 - 步兵排與班"
 authors = ["SLMT"]
+src = "src"
 language = "zh-TW"
 multilingual = false
-src = "src"
-title = "美國陸軍技術出版物 3-21.8 - 步兵排與班"

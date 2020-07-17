@@ -7,11 +7,14 @@
 | AMMO Handler | 彈藥兵 |
 | Antiarmor Specialist | 反裝甲兵 |
 | Assistant Machine Gunner | 助理機槍兵 |
+| Back Brief | 回報 |
 | Base of Fire | 火力基點 |
 | Brigade Combat Team | 旅級戰鬥隊 |
 | Casualty Collection Point | 傷亡收集點 |
 | Combined Arms | 聯合武裝 |
 | Company Medic | 連醫護兵 |
+| Confirmation Brief | 確認簡報 |
+| Course of Action | 行事步驟 |
 | Engagement Area Development | 開展區域交戰 |
 | Field Artillery | 野戰砲 |
 | Fire Support | 火力支援 |

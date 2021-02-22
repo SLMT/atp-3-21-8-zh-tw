@@ -35,6 +35,7 @@
 | Platoon RTO | 排無線電兵 |
 | Preventive Medicine Measures | 醫療預防措施 |
 | Rifleman | 步槍兵 |
+| Shoulder-Fired Missile | 肩射飛彈 |
 | Unified Land Operation | 統一地面作戰 |
 | Weapon Squad | 武器班 |
 | Weapon Squad Leader | 武器班長 |

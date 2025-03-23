@@ -1,55 +1,58 @@
 <!DOCTYPE HTML>
-<html lang="zh-TW" class="sidebar-visible no-js light">
+<html lang="zh-TW" class="light sidebar-visible" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>附錄 - 名詞對照表 - 美國陸軍技術出版物 3-21.8 - 步兵排與班</title>
-                
+
 
         <!-- Custom HTML head -->
-                <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103835191-1"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1YYCC58ZGW"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          function gtag() { dataLayer.push(arguments); }
           gtag('js', new Date());
-
-          gtag('config', 'UA-103835191-1');
+        
+          gtag('config', 'G-1YYCC58ZGW', {
+            'content_group': 'atp-3-21-8-zh-tw'
+          });
         </script>
-
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
-                <link rel="icon" href="favicon.svg">
-                        <link rel="shortcut icon" href="favicon.png">
-                <link rel="stylesheet" href="css/variables.css">
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
-                <link rel="stylesheet" href="css/print.css" media="print">
-        
+        <link rel="stylesheet" href="css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-                <link rel="stylesheet" href="fonts/fonts.css">
-        
+        <link rel="stylesheet" href="fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
-        
-            </head>
-    <body>
+
+
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
-
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -65,71 +68,79 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
-            html.classList.remove('no-js')
+            const html = document.documentElement;
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            html.classList.add("js");
         </script>
 
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
+        <script>
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
+            sidebar_toggle.checked = sidebar === 'visible';
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">卷頭說明</a></li><li class="chapter-item expanded affix "><a href="introduction.html">本書簡介</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="chapter-1/index.html"><strong aria-hidden="true">1.</strong> 組織</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="chapter-1/section-1.html"><strong aria-hidden="true">1.1.</strong> 👷 作戰概要</a></li><li class="chapter-item expanded "><a href="chapter-1/section-2.html"><strong aria-hidden="true">1.2.</strong> 👷 步槍排與班的腳色</a></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">1.3.</strong> 🚧 機械化步兵排與班的腳色</a></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">1.4.</strong> 🚧 史崔克步兵排與班的腳色</a></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">1.5.</strong> 🚧 連隊組織</a></li></ol></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">2.</strong> 🚧 進攻</a></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">3.</strong> 🚧 防禦</a></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">4.</strong> 🚧 穩定</a></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">5.</strong> 🚧 移動</a></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">6.</strong> 🚧 巡邏隊與巡邏</a></li><li class="chapter-item expanded "><a href="work-in-progress.html"><strong aria-hidden="true">7.</strong> 🚧 維持</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="terms.html" class="active">附錄 - 名詞對照表</a></li></ol>            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
         </nav>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                
                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
-                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
-                                            </div>
+                    </div>
 
                     <h1 class="menu-title">美國陸軍技術出版物 3-21.8 - 步兵排與班</h1>
 
                     <div class="right-buttons">
-                                                <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
-                                                                        
+
                     </div>
                 </div>
 
-                                <div id="search-wrapper" class="hidden">
+                <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
                         <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
                     </form>
@@ -139,9 +150,9 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -153,85 +164,86 @@
                     <main>
                         <h1 id="附錄---名詞對照表"><a class="header" href="#附錄---名詞對照表">附錄 - 名詞對照表</a></h1>
 <p>下表以英文名詞按照字母順序排序</p>
-<table><thead><tr><th align="left">英文 (English)</th><th align="left">繁體中文 (Traditional Chinese)</th></tr></thead><tbody>
-<tr><td align="left">AMMO Handler</td><td align="left">彈藥兵</td></tr>
-<tr><td align="left">Antiarmor Specialist</td><td align="left">反裝甲兵</td></tr>
-<tr><td align="left">Assistant Machine Gunner</td><td align="left">助理機槍兵</td></tr>
-<tr><td align="left">Back Brief</td><td align="left">回報</td></tr>
-<tr><td align="left">Base of Fire</td><td align="left">火力基點</td></tr>
-<tr><td align="left">Brigade Combat Team</td><td align="left">旅級戰鬥隊</td></tr>
-<tr><td align="left">Casualty Collection Point</td><td align="left">傷亡收集點</td></tr>
-<tr><td align="left">Combined Arms</td><td align="left">聯合武裝</td></tr>
-<tr><td align="left">Company Medic</td><td align="left">連醫護兵</td></tr>
-<tr><td align="left">Confirmation Brief</td><td align="left">確認簡報</td></tr>
-<tr><td align="left">Course of Action</td><td align="left">行事步驟</td></tr>
-<tr><td align="left">Engagement Area Development</td><td align="left">開展區域交戰</td></tr>
-<tr><td align="left">Field Artillery</td><td align="left">野戰砲</td></tr>
-<tr><td align="left">Fire Support</td><td align="left">火力支援</td></tr>
-<tr><td align="left">Fire Support Officer</td><td align="left">火力支援官</td></tr>
-<tr><td align="left">Fire Team</td><td align="left">伍</td></tr>
-<tr><td align="left">FIST</td><td align="left">火力支援小組</td></tr>
-<tr><td align="left">Grenadier</td><td align="left">榴彈兵</td></tr>
-<tr><td align="left">Headquarter</td><td align="left">本部</td></tr>
-<tr><td align="left">Indirect Fire</td><td align="left">間接火力</td></tr>
-<tr><td align="left">Infantry Fire Team</td><td align="left">步兵火力小隊</td></tr>
-<tr><td align="left">Infantry Platoon</td><td align="left">步兵排</td></tr>
-<tr><td align="left">Infantry Squad</td><td align="left">步兵班</td></tr>
-<tr><td align="left">Machine Gunner</td><td align="left">機槍兵</td></tr>
-<tr><td align="left">Observation Post</td><td align="left">觀測點</td></tr>
-<tr><td align="left">Platoon Medic</td><td align="left">排醫護兵</td></tr>
-<tr><td align="left">Platoon Leader</td><td align="left">排長</td></tr>
-<tr><td align="left">Platoon Sergeant</td><td align="left">排士官</td></tr>
-<tr><td align="left">Platoon RTO</td><td align="left">排無線電兵</td></tr>
-<tr><td align="left">Preventive Medicine Measures</td><td align="left">醫療預防措施</td></tr>
-<tr><td align="left">Rifleman</td><td align="left">步槍兵</td></tr>
-<tr><td align="left">Shoulder-Fired Missile</td><td align="left">肩射飛彈</td></tr>
-<tr><td align="left">Unified Land Operation</td><td align="left">統一地面作戰</td></tr>
-<tr><td align="left">Weapon Squad</td><td align="left">武器班</td></tr>
-<tr><td align="left">Weapon Squad Leader</td><td align="left">武器班長</td></tr>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">英文 (English)</th><th style="text-align: left">繁體中文 (Traditional Chinese)</th></tr></thead><tbody>
+<tr><td style="text-align: left">AMMO Handler</td><td style="text-align: left">彈藥兵</td></tr>
+<tr><td style="text-align: left">Antiarmor Specialist</td><td style="text-align: left">反裝甲兵</td></tr>
+<tr><td style="text-align: left">Assistant Machine Gunner</td><td style="text-align: left">助理機槍兵</td></tr>
+<tr><td style="text-align: left">Back Brief</td><td style="text-align: left">回報</td></tr>
+<tr><td style="text-align: left">Base of Fire</td><td style="text-align: left">火力基點</td></tr>
+<tr><td style="text-align: left">Brigade Combat Team</td><td style="text-align: left">旅級戰鬥隊</td></tr>
+<tr><td style="text-align: left">Casualty Collection Point</td><td style="text-align: left">傷亡收集點</td></tr>
+<tr><td style="text-align: left">Combined Arms</td><td style="text-align: left">聯合武裝</td></tr>
+<tr><td style="text-align: left">Company Medic</td><td style="text-align: left">連醫護兵</td></tr>
+<tr><td style="text-align: left">Confirmation Brief</td><td style="text-align: left">確認簡報</td></tr>
+<tr><td style="text-align: left">Course of Action</td><td style="text-align: left">行事步驟</td></tr>
+<tr><td style="text-align: left">Engagement Area Development</td><td style="text-align: left">開展區域交戰</td></tr>
+<tr><td style="text-align: left">Field Artillery</td><td style="text-align: left">野戰砲</td></tr>
+<tr><td style="text-align: left">Fire Support</td><td style="text-align: left">火力支援</td></tr>
+<tr><td style="text-align: left">Fire Support Officer</td><td style="text-align: left">火力支援官</td></tr>
+<tr><td style="text-align: left">Fire Team</td><td style="text-align: left">伍</td></tr>
+<tr><td style="text-align: left">FIST</td><td style="text-align: left">火力支援小組</td></tr>
+<tr><td style="text-align: left">Grenadier</td><td style="text-align: left">榴彈兵</td></tr>
+<tr><td style="text-align: left">Headquarter</td><td style="text-align: left">本部</td></tr>
+<tr><td style="text-align: left">Indirect Fire</td><td style="text-align: left">間接火力</td></tr>
+<tr><td style="text-align: left">Infantry Fire Team</td><td style="text-align: left">步兵火力小隊</td></tr>
+<tr><td style="text-align: left">Infantry Platoon</td><td style="text-align: left">步兵排</td></tr>
+<tr><td style="text-align: left">Infantry Squad</td><td style="text-align: left">步兵班</td></tr>
+<tr><td style="text-align: left">Machine Gunner</td><td style="text-align: left">機槍兵</td></tr>
+<tr><td style="text-align: left">Observation Post</td><td style="text-align: left">觀測點</td></tr>
+<tr><td style="text-align: left">Platoon Medic</td><td style="text-align: left">排醫護兵</td></tr>
+<tr><td style="text-align: left">Platoon Leader</td><td style="text-align: left">排長</td></tr>
+<tr><td style="text-align: left">Platoon Sergeant</td><td style="text-align: left">排士官</td></tr>
+<tr><td style="text-align: left">Platoon RTO</td><td style="text-align: left">排無線電兵</td></tr>
+<tr><td style="text-align: left">Preventive Medicine Measures</td><td style="text-align: left">醫療預防措施</td></tr>
+<tr><td style="text-align: left">Rifleman</td><td style="text-align: left">步槍兵</td></tr>
+<tr><td style="text-align: left">Shoulder-Fired Missile</td><td style="text-align: left">肩射飛彈</td></tr>
+<tr><td style="text-align: left">Unified Land Operation</td><td style="text-align: left">統一地面作戰</td></tr>
+<tr><td style="text-align: left">Weapon Squad</td><td style="text-align: left">武器班</td></tr>
+<tr><td style="text-align: left">Weapon Squad Leader</td><td style="text-align: left">武器班長</td></tr>
 </tbody></table>
-
+</div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                                                    <a rel="prev" href="work-in-progress.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="work-in-progress.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                        
-                        
+
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                                    <a rel="prev" href="work-in-progress.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="work-in-progress.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                
-                            </nav>
+
+            </nav>
 
         </div>
 
-        
-        
-        
-                <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        
-        
-                <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
-        
-        
+
+
+    </div>
     </body>
 </html>
